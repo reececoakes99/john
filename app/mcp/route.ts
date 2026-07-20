@@ -86,7 +86,7 @@ const handler = createMcpHandler(
         john_list: { description: "Build a command to list John capabilities" },
       },
     },
-  },
+  } as any,
   { basePath: "", verboseLogs: true, maxDuration: 60, disableSse: true },
 );
 
